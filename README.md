@@ -21,8 +21,8 @@ A simple and efficient URL Shortener application that transforms long URLs into 
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/your-username/url-shortener.git
-   cd url-shortener
+   git clone https://github.com/alankrit98/URL_Shortener.git
+   cd URL_Shortener
    ```
 
 2. **Install dependencies**
@@ -37,9 +37,9 @@ A simple and efficient URL Shortener application that transforms long URLs into 
 
    Add the following:
    ```env
-   PORT=5000
+   PORT=8000
    MONGODB_URI=your_mongodb_connection_string
-   BASE_URL=http://localhost:5000
+   BASE_URL=http://localhost:8000
    ```
 
 4. **Run the app**
