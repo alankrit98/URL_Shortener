@@ -15,7 +15,7 @@ A simple and efficient URL Shortener application that transforms long URLs into 
 
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB
-- **Frontend (Optional):** HTML/CSS or React (if applicable)
+- **Frontend:** React.js
 
 ## 📦 Installation
 
@@ -37,9 +37,9 @@ A simple and efficient URL Shortener application that transforms long URLs into 
 
    Add the following:
    ```env
-   PORT=8000
-   MONGODB_URI=your_mongodb_connection_string
-   BASE_URL=http://localhost:8000
+   PORT=8001
+   MONGODB_URI = your_mongodb_connection_string
+   BASE_URL = http://localhost:8001
    ```
 
 4. **Run the app**
@@ -61,7 +61,7 @@ A simple and efficient URL Shortener application that transforms long URLs into 
 url-shortener/
 │
 ├── models/
-│   └── Url.js          # Mongoose schema
+│   └── url.js          # Mongoose schema
 ├── routes/
 │   └── url.js          # API routes
 ├── .env                # Environment variables
