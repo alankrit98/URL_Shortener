@@ -1,3 +1,4 @@
+const cors = require('cors');
 require('dotenv').config();
 const express = require('express');
 const {connectDB} = require("./connect")
@@ -5,6 +6,7 @@ const urlRoute = require("./routes/url.js");
 const URL = require("./models/url.js");
 
 const app = express();
+app.use(cors());
 const PORT = 8001;
 
 connectDB(process.env.MONGODB_URL)
