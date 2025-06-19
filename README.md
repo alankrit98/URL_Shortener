@@ -15,7 +15,6 @@ A simple and efficient URL Shortener application that transforms long URLs into 
 
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB
-- **Frontend:** React.js
 
 ## 📦 Installation
 
@@ -68,10 +67,6 @@ url-shortener/
 ├── server.js           # App entry point
 └── README.md
 ```
-
-## ✨ Screenshots (Optional)
-
-Include screenshots of your UI if it has a frontend.
 
 ## 🤝 Contributing
 
